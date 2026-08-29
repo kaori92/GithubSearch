@@ -1,3 +1,18 @@
 <resources>
     <string name="app_name">GithubSearch</string>
+
+    <string name="autocomplete_title">GitHub search</string>
+    <string name="autocomplete_field_label">Search GitHub</string>
+    <string name="autocomplete_field_placeholder">Users and repositories</string>
+    <string name="autocomplete_clear">Clear search</string>
+    <string name="autocomplete_searching">Searching</string>
+    <string name="autocomplete_idle_hint">Type at least %1$d characters to search.</string>
+    <string name="autocomplete_empty">No users or repositories match \"%1$s\". Try a different spelling.</string>
+    <string name="autocomplete_error_network">Cannot reach GitHub. Check your connection, then retry.</string>
+    <string name="autocomplete_error_rate_limited">GitHub search is rate limited right now. Wait a minute, then retry.</string>
+    <string name="autocomplete_error_server">GitHub search failed. Retry in a moment.</string>
+    <string name="autocomplete_retry">Retry</string>
+    <string name="autocomplete_type_user">User</string>
+    <string name="autocomplete_type_repository">Repository</string>
+    <string name="autocomplete_avatar_of">Avatar of %1$s</string>
 </resources>
